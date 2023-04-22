@@ -3,7 +3,7 @@ const fs = require('fs');
 const http = require('http');
 const requests = require('requests');
 
-const mainFile = fs.readFileSync("home.html", "utf-8");
+const mainFile = fs.readFileSync("index.html", "utf-8");
 
 // Function to replace placeholders in the HTML template with data from the API response
 let replaceVal = (mainFile, newData) => {
